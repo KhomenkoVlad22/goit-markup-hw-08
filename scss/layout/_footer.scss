@@ -1,0 +1,101 @@
+.footer-container {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+
+.footer-link {
+    transition: color 250ms var(--cubic);
+}
+
+.adress-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.adress {
+    font-style: inherit;
+    color: var(--white-rgba);
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--text-color-blck);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
+
+
+.footer .logo {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-color-wht);
+    margin-bottom: 20px;
+}
+
+/* Social-Footer */
+.footer-cta .socials-link {
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-cta .socials-link:hover,
+.footer-cta .socials-link:focus {
+    background-color: var(--accent-color);
+    transition: background-color 250ms var(--cubic);
+
+}
+
+.footer-cta .socials-icon {
+    fill: var(--text-color-wht);
+}
+
+.footer-email-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color-wht);
+    margin-bottom: 20px;
+}
+
+.footer-email-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--text-color-wht);
+    padding: 16px 15px;
+}
+
+.footer-email-list {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-icon {
+    margin-left: 10px;
+}

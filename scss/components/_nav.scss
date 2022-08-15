@@ -1,0 +1,33 @@
+.nav {
+  color: var(--text-color-blck);
+}
+
+.contact-mail {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms var(--cubic);
+  }
+}
+
+.nav-contacts {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: auto;
+}

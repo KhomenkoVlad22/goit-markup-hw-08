@@ -1,0 +1,30 @@
+//Utils
+@import './utils/variables';
+@import './utils/visual';
+
+
+// Base
+
+@import './base/base';
+@import './base/reset';
+//Components
+@import './components/card-set';
+@import './components/section';
+@import './components/container';
+@import './components/button';
+@import './components/logo';
+@import './components/nav';
+@import './components/socials';
+@import './components/modal';
+@import './components/modal-registr';
+
+//Layout
+@import './layout/header';
+@import './layout/hero';
+@import './layout/description';
+@import './layout/about';
+@import './layout/regular';
+@import './layout/team';
+@import './layout/footer';
+@import './layout/portfolio/filter';
+@import './layout/portfolio/work';

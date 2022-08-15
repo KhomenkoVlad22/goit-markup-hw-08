@@ -1,0 +1,344 @@
+/* :root {
+  --text-color-blck: #212121;
+  --accent-color: #2196f3;
+  --text-color-wht: #ffffff;
+  --text-color-gray: #757575;
+  --text-color-soc: #afb1b8;
+  --drk-bg: #2f303a;
+  --light-bg: #f5f4fa;
+  --gradient: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+  --white-rgba: rgba(255, 255, 255, 0.6);
+  --card-gap: 30px;
+  --card-item: 3;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* body {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray);
+} */
+/* h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+/* .section 
+{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+} */
+/* .card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--card-gap);
+}
+.card-item {
+  flex-basis: calc(
+    (100% - (var(--card-item) - 1) * var(--card-gap)) / var(--card-item)
+  );
+} */
+/* .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* .link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+} */
+/* .visually-hidden{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path:  inset(50%);
+margin: -1px;
+} */
+
+/* Header */
+/* .header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  border: 1px solid #ececec;
+} */
+/* .logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.16;
+  color: var(--accent-color);
+} */
+/* .black {
+  color: var(--text-color-blck);
+}
+.white {
+  color: var(--text-color-wht);
+} */
+
+/* .header-link:hover, 
+ .header-link:focus {
+  color: var(--accent-color);
+  
+} */
+/* .nav {
+  color: var(--text-color-blck);
+}
+.contact-mail {
+  fill: currentColor;
+  margin-right: 10px;
+} */
+/* .header-link a:hover,
+.header-link a:focus {
+  color: var(--accent-color);
+}
+
+.active-page{
+  position: relative;
+  color: var(--accent-color);
+}
+
+.active-page::after{
+  content: '';
+  position: absolute;
+  display: block ;
+  left: 0;
+  bottom: -1px;
+  border-radius: 4px;
+  width: 100%;
+  height: 5px;
+  background-color: var(--accent-color );
+  
+} */
+
+/* Header */
+/* .header .logo {
+  margin-right: 93px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+} */
+
+/* Секція Герой */
+
+/* .hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: var(--gradient), url(../images/indeximg/backhero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--drk-bg);
+  text-align: center;
+}
+.hero__title {
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 30px;
+} */
+/* .btn-hero {
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--text-color-wht);
+  min-width: 200px;
+  padding: 10px 32px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  border: none;
+  transition: background-color 250ms var(--cubic);
+}
+.btn-hero:hover, 
+.btn-hero:focus{
+  background-color: #188CE8;
+} */
+
+/* Секція опису роботи */
+
+/* .description__list {
+  --card-item: 4;
+}
+
+.description__title {
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.description_other {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  border-radius: 4px;
+  background: var(--light-bg);
+  margin-bottom: 30px;
+} */
+
+/* Секція про нас */
+/* .about {
+  padding-top: 0px;
+}
+
+.about__list .about__item{
+  position: relative;
+}
+.about__title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-color-wht);
+  text-align: center;
+  padding: 27px;
+  background: rgba(47, 48, 58, 0.8);
+} */
+/* Секція наша Команда */
+
+
+
+/* .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms var(--cubic);
+  
+}
+.socials-icon {
+  fill: var(--text-color-soc);
+  transition: fill 250ms var(--cubic);
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-color);
+  
+}
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: var(--text-color-wht);
+  
+} */
+
+/* Постійні клієнти */
+
+
+/* Секція футер */
+
+
+/* Портфолио */
+
+
+
+
+/* Modal */
+
+
+
+/* Modal-form */
+
+
+
+
+/* Fotter-email */
+
+/* .footer-email-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-wht);
+  margin-bottom: 20px;
+}
+
+.footer-email-input{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--text-color-wht);
+    padding: 16px 15px;
+}
+.footer-email-list{
+ display: flex;
+gap: 12px;
+}
+.btn-icon{
+  margin-left: 10px;
+} */

@@ -1,0 +1,28 @@
+.about {
+    padding-top: 0px;
+
+
+    &__list 
+    &__item {
+            position: relative;
+        }
+
+    &__title {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            margin: 0;
+            font-weight: 700;
+            line-height: 1.14;
+            text-transform: uppercase;
+            color: var(--text-color-wht);
+            text-align: center;
+            padding: 27px;
+            background: rgba(47, 48, 58, 0.8);
+        }
+}
+
+
+
+

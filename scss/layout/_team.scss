@@ -1,0 +1,42 @@
+.team-list {
+    --card-item: 4;
+}
+
+.team {
+    background-color: var(--light-bg);
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--text-color-blck);
+}
+
+.team-text .team-name {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-text {
+    font-weight: 400px;
+    margin-bottom: 16px;
+}
+
+.comand-item {
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-content {
+    padding: 30px;
+}

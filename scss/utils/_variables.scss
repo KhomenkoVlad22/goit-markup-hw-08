@@ -1,0 +1,16 @@
+:root {
+    --text-color-blck: #212121;
+    --accent-color: #2196f3;
+    --text-color-wht: #ffffff;
+    --text-color-gray: #757575;
+    --text-color-soc: #afb1b8;
+    --drk-bg: #2f303a;
+    --light-bg: #f5f4fa;
+    --gradient: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4));
+    --white-rgba: rgba(255, 255, 255, 0.6);
+    --card-gap: 30px;
+    --card-item: 3;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
