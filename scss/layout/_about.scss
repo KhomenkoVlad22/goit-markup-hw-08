@@ -1,6 +1,17 @@
 .about {
     padding-top: 0px;
 
+    @media screen and (min-width:480px) {
+            display: none;
+        }
+     @media screen and (min-width:768px) {
+            display: none;
+    }
+    @media screen and (min-width:1200px) {
+            
+         }
+
+
 
     &__list 
     &__item {
@@ -21,6 +32,8 @@
             padding: 27px;
             background: rgba(47, 48, 58, 0.8);
         }
+
+               
 }
 
 
