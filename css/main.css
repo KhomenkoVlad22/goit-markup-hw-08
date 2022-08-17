@@ -658,11 +658,17 @@ img {
 
 .regular-title {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16em;
   font-weight: 700;
   color: var(--text-color-blck);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .regular-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .regular-item .link {
@@ -681,6 +687,16 @@ img {
   color: var(--text-color-soc);
   -webkit-transition: color 250ms var(--cubic);
   transition: color 250ms var(--cubic);
+}
+@media screen and (max-width: 767px) {
+  .regular-item .link {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .regular-item .link {
+    width: 226px;
+  }
 }
 
 .regular-icon {
