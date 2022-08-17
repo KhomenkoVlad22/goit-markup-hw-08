@@ -619,15 +619,11 @@ img {
 
 .about {
   padding-top: 0px;
+  display: none;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .about {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .about {
-    display: none;
+    display: block;
   }
 }
 .about__list .about__item {
