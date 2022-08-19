@@ -2,14 +2,43 @@
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: var(--gradient), url(../images/indeximg/backhero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+
+  padding-top: 118px;
+  padding-bottom: 118px;
+  
+  
   background-color: var(--drk-bg);
   text-align: center;
+
+
+  background-image: url(../images/header/hero-mobile2x.jpg);
+  @media (min-device-pixel-ratio:2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/header/hero-mobile2x.jpg)
+  }
+
+  @media screen and (min-width:768px) {
+    background-image: url(../images/header/hero-tablet.jpg);
+
+    @media (min-device-pixel-ratio:2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../images/header/hero-tablet2x.jpg)
+      }
+  }
+    @media screen and (min-width:1200px) {
+
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-image: url(../images/header/desctop.jpg);
+      @media (min-device-pixel-ratio:2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          background-image: url(../images/header/desctop2x.jpg)
+    }
+
 }
 .hero__title {
   max-width: 360px;
