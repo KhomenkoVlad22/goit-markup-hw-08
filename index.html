@@ -132,15 +132,33 @@
         <h2 class="section-title black">Чем мы занимаемся</h2>
         <ul class="card-set about__list list">
           <li class="about__item card-item">
-            <img src="./images/indeximg/desktop.jpg" alt="Разработка" width="370" height="294" />
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk.webp 1x,
+              ./images/images-index/we-do/img@2x_desk.webp 2x" type="image/webp">
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk.jpg 1x,
+              ./images/images-index/we-do/img@2x_desk.jpg 2x" type="image/jpg">
+              <img src="./images/images-index/we-do/img@1x_desk.jpg" alt="Разработка" width="370" height="294" />
+            </picture>
             <p class="about__title">Десктопные приложения</p>
           </li>
           <li class="about__item card-item">
-            <img src="./images/indeximg/mobile.jpg" alt="Приложения" width="370" height="294" />
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk-1.webp 1x,
+                          ./images/images-index/we-do/img@2x_desk-1.webp 2x" type="image/webp">
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk-1.jpg 1x,
+                          ./images/images-index/we-do/img@2x_desk-1.jpg 2x" type="image/jpg">
+              <img src="./images/images-index/we-do/img@1x_desk-1.jpg" alt="Разработка" width="370" height="294" />
+            </picture>
             <p class="about__title">Мобильные приложения</p>
           </li>
           <li class="about__item card-item">
-            <img src="./images/indeximg/tablet.jpg" alt="Внедрение" width="370" height="294" />
+            <picture>
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk-2.webp 1x,
+                                      ./images/images-index/we-do/img@2x_desk-2.webp 2x" type="image/webp">
+              <source media="(min-width: 1200px)" srcset="./images/images-index/we-do/img@1x_desk-2.jpg 1x,
+                                      ./images/images-index/we-do/img@2x_desk-2.jpg 2x" type="image/jpg">
+              <img src="./images/images-index/we-do/img@1x_desk-2.jpg" alt="Разработка" width="370" height="294" />
+            </picture>
             <p class="about__title">Дизайнерские решения</p>
           </li>
         </ul>
@@ -489,7 +507,6 @@
     </div>
   </div>
   <!-- Mobile menu -->
-
   <div class="menu-overlay">
     <div class="menu-container">
 
