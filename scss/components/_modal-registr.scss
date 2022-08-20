@@ -116,6 +116,7 @@
 
 .registration-agreemen-icon {
     width: 16px;
+    flex-shrink: 0;
     height: 15px;
     border: 2px solid black;
     transition: border 250ms var(--cubic);

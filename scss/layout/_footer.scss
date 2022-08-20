@@ -1,23 +1,23 @@
 .footer-container {
-display: block;
-margin: 0;
-padding: 0px;
+    display: block;
+    margin: 0;
+    padding: 0px;
 
 
-@media (min-width: 768px) {
+    @media (min-width: 768px) {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px 165px;
     }
 
-@media screen and(min-width:1200px) {
-    display: flex;
+    @media screen and(min-width:1200px) {
+        display: flex;
         gap: 70px;
         align-items: baseline;
-    
-}
-    
+
+    }
+
 }
 
 .footer-link {
@@ -71,25 +71,27 @@ padding: 0px;
     padding: 20px 0px 10px 0px;
 
     @media (min-width: 768px) {
-            padding-bottom: 10px;
-        }
-    
-     @media (min-width: 1200px) {
-            text-align: left;
-        }
+        padding-bottom: 10px;
+    }
+
+    @media (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 /* Social-Footer */
 
-.footer-cta{
+.footer-cta {
     display: block;
 
     margin-top: 60px;
     text-align: center;
+
     @media screen and(min-width:768px) {
         margin-top: 0;
     }
 }
+
 .footer-cta .socials-link {
 
     background-color: rgba(255, 255, 255, 0.1);
@@ -117,7 +119,7 @@ padding: 0px;
 }
 
 .footer-email-input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -125,33 +127,39 @@ padding: 0px;
     background-color: transparent;
     color: var(--text-color-wht);
     padding: 16px 15px;
+
+    @media screen and(min-width:1200px) {
+        width: 358px;
+    }
 }
 
 .footer-email-list {
-   display: block;
-   
-   @media screen and(min-width:1200px) {
-    display: flex;
-    gap: 12px;
-    
-   }
+    display: block;
+
+    @media screen and(min-width:1200px) {
+        display: flex;
+        gap: 12px;
+
+    }
 }
 
 .btn-icon {
     margin-left: 10px;
 }
-.footer-email{
+
+.footer-email {
     margin-top: 60px;
-    
-        @media (min-width: 768px) {
-            margin-top: 0px;
-            padding: 0;
-        }
-    
-        @media (min-width: 1200px) {
-            margin-left: 23px;
-        }
+
+    @media (min-width: 768px) {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    @media (min-width: 1200px) {
+        margin-left: 23px;
+    }
 }
-.footer-email-item{
+
+.footer-email-item {
     padding-bottom: 20px;
 }
