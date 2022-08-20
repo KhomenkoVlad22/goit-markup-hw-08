@@ -1,6 +1,7 @@
 .work-title {
     font-weight: 700;
     font-size: 18px;
+    letter-spacing: 0.06em;
     line-height: 2;
     color: var(--text-color-blck);
     margin-bottom: 4px;
@@ -39,6 +40,10 @@
     overflow: hidden;
 }
 
+.work-overlay img {
+    width: 100%;
+}
+
 .work-about {
     font-family: 'Roboto';
     font-style: normal;
@@ -53,14 +58,25 @@
     position: absolute;
     top: 0;
     left: 0;
+    overflow: auto;
     width: 100%;
     height: 100%;
-    padding: 63px 24px;
+    padding: 77px 24px;
     opacity: 0;
     transform: translateY(100%);
     background-color: var(--accent-color);
     color: var(--text-color-wht);
     transition: transform 250ms var(--cubic), opacity 250ms var(--cubic);
+
+    @media screen and(min-width:768px) {
+        padding: 49px 24px;
+
+    }
+
+    @media screen and(min-width:1200px) {
+        padding: 63px 24px;
+
+    }
 }
 
 .work-link:hover .work-about,
