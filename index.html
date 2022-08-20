@@ -586,45 +586,42 @@
     </div>
   </div>
   <!-- Mobile menu -->
-  <div class="menu-overlay">
-    <div class="menu-container">
+  <div class="menu-overlay" data-menu>
+    <button class="menu-btn" type="button" data-menu-close>
+      <svg class="menu-close-icon" width="40" height="40">
+        <use href="./images/icons.svg#close"></use>
+      </svg>
+    </button>
 
-      <button class="menu-btn" type="button" data-menu-close>
-        <svg class="menu-close-icon" width="40" height="40">
-          <use href="./images/icons.svg#close"></use>
-        </svg>
-      </button>
-
-      <ul class="mobile-nav list">
-        <li class="mobile-nav-item">
-          <a href="" class="mobile-link link">Студия</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a href="" class="mobile-link link">Портфолио</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a href="" class="mobile-link link">Контакты</a>
-        </li>
-      </ul>
-      <ul class="mobile-contacts list">
-        <li><a class="mobile-contacts-link link" href="+380961111111">+38 096 111 11 11</a></li>
-        <li><a class="mobile-contacts-link link" href="info@devstudio.com">info@devstudio.com</a></li>
-      </ul>
-      <ul class="mobile-socilas list">
-        <li class="mobile-socilas-item">
-          <a href="" class="mobile-socilas-link link">Instagram</a>
-        </li>
-        <li class="mobile-socilas-item">
-          <a href="" class="mobile-socilas-link link">Twitter</a>
-        </li>
-        <li class="mobile-socilas-item">
-          <a href="" class="mobile-socilas-link link">Facebook</a>
-        </li>
-        <li class="mobile-socilas-item">
-          <a href="" class="mobile-socilas-link link">LinkedIn</a>
-        </li>
-      </ul>
-    </div>
+    <ul class="mobile-nav list">
+      <li class="mobile-nav-item">
+        <a href="./index.html" class="mobile-link link active">Студия</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="./portfolio.html" class="mobile-link link">Портфолио</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="" class="mobile-link link">Контакты</a>
+      </li>
+    </ul>
+    <ul class="mobile-contacts list">
+      <li><a class="mobile-contacts-link link phone" href="+380961111111">+38 096 111 11 11</a></li>
+      <li><a class="mobile-contacts-link link" href="info@devstudio.com">info@devstudio.com</a></li>
+    </ul>
+    <ul class="mobile-socilas list">
+      <li class="mobile-socilas-item">
+        <a href="" class="mobile-socilas-link link">Instagram</a>
+      </li>
+      <li class="mobile-socilas-item">
+        <a href="" class="mobile-socilas-link link">Twitter</a>
+      </li>
+      <li class="mobile-socilas-item">
+        <a href="" class="mobile-socilas-link link">Facebook</a>
+      </li>
+      <li class="mobile-socilas-item">
+        <a href="" class="mobile-socilas-link link">LinkedIn</a>
+      </li>
+    </ul>
   </div>
 
   <script src="./js/modal.js"></script>

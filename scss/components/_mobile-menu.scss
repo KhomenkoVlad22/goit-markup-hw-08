@@ -13,15 +13,20 @@
 
     cursor: pointer;
 
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
-
     .menu-overlay & {
         position: absolute;
         top: 10px;
         right: 15px;
     }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.menu-close-icon:hover,
+.menu-close-icon:hover {
+    fill: var(--accent-color);
 }
 
 .menu-overlay {
@@ -38,14 +43,15 @@
     width: 100%;
     height: 100%;
 
-    background-color: var(--text-color-wht);
+    background-color: var(--light-bg);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
         0px 1px 3px rgba(0, 0, 0, 0.16);
 
-    
+    transition: transform var(--cubic);
 
-    @media screen and (min-width: 768px) {
-        display: none;}
+    @media screen and(min-width:768px) {
+        display: none;
+    }
 
     &.is-open {
         transform: translateX(0);
@@ -59,11 +65,11 @@
     margin-left: auto;
     max-width: 337px;
     height: 100%;
-    background-color: var(--text-color-wht);
+    background-color: var(--drk-bg);
     padding: 48px 40px;
 
     transform: translateX(100%);
-    
+    transition: transform var(--cubic);
 
     .menu-overlay.is-open & {
         transform: translateX(0);
@@ -81,31 +87,73 @@
 
 }
 
-.mobile-link,
-.mobile-contacts-link {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: calc(25 / 18);
-    letter-spacing: 0.1em;
+.mobile-link {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(47/40);
+    text-align: center;
+    letter-spacing: 0.02em;
 
-    color: #303030;
+    color: var(--text-color-blck);
+    transition: color var(--cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.active:active {
+    color: var(--accent-color);
+}
+
+.mobile-contacts-link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(28/24);
+    letter-spacing: 0.02em;
+    color: var(--text-color-gray);
+    transition: color var(--cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--text-color-blck);
+    }
+}
+
+.phone {
+    color: var(--accent-color);
+
+    @media screen and(max-width:479px) {
+        font-size: 34px;
+    }
 }
 
 .mobile-nav-item {
-    &:not(:last-child) {
-        margin-bottom: 24px;
-    }
+    margin-bottom: 24px;
+
 }
 
 .mobile-socilas {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(22/18);
+    letter-spacing: 0.02em;
 }
 
-.mobile-socilas-item:not(:last-child) .mobile-socilas-link {
+.mobile-socilas-item .mobile-socilas-link {
     display: flex;
-
+    color: var(--accent-color);
     padding-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+    &:hover,
+    &:focus {
+        transform: scale(1.5);
+    }
+
 }
