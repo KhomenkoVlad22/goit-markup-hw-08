@@ -864,6 +864,12 @@ img {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description__title {
+    text-align: left;
+  }
 }
 
 .description__other {
