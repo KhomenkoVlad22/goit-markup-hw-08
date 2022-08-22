@@ -17,6 +17,7 @@
 }
 
 .work-description {
+    flex-grow: 1;
     padding: 20px 24px;
     background: var(--text-color-wht);
     border: 1px solid #eeeeee;
@@ -24,6 +25,7 @@
 
 .work-list .link {
     display: flex;
+    height: 100%;
     flex-direction: column;
     transition: box-shadow 250ms var(--cubic);
 }
