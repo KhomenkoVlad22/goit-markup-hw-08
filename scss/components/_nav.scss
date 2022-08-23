@@ -51,3 +51,25 @@
     flex-direction: row;
   }
 }
+.nav-contacts__link{
+  @media screen and(min-width:768px) {
+    display: flex;
+    align-items: center;
+    
+  }
+}
+
+.nav-contacts__link:hover,
+.nav-contacts__link:focus
+{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+  transition: transform var(--cubic);
+}
+
+.nav__item:hover,
+.nav__item:focus {
+  color: var(--accent-color) ;
+  transition: transform var(--cubic);
+
+}

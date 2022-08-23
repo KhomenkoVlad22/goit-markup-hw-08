@@ -25,11 +25,12 @@
 }
 
 .menu-close-icon:hover,
-.menu-close-icon:hover {
+.menu-close-icon:focus {
     fill: var(--accent-color);
 }
 
 .menu-overlay {
+    overflow: auto;
     padding: 48px 40px;
     display: flex;
     flex-direction: column;
